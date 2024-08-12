@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+
+  
+  <main class="container">
+     <div class="form">
+      <div class="content">
+        <h1 class="titel">Stay updated!</h1>
+        <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="item">
+          <img src="assets/images/icon-success.svg" alt="">
+          <h3>Product discovery and building what matters</h3>
+        </div>
+        <div class="item">
+          <img src="assets/images/icon-success.svg" alt="">
+          <h3>Measuring to ensure updates are a success</h3>
+        </div>
+        <div class="item">
+          <img src="assets/images/icon-success.svg" alt="">
+          <h3>And much more!</h3>
+        </div>
+        <div class="input">
+          <div class="lebels">
+            <label for="">Email address</label>
+            <label for="" id="error-msg">valid Email required</label>
+          </div>
+          <input type="email" class=""  id="inputEmail" placeholder="email@company.com">
+          <button type="submit" id="submit" class="submit ">Subscribe to monthly newsletter</button>
+        </div>
+      </div>
+      <div class="img">
+      </div>
+    </div> 
+    <div class="sucsses-item">
+      <img src="assets/images/icon-success.svg" alt="">
+      <h1>Thanks for subscribing!</h1>
+      <p>A confirmation email has been sent to <span id="email">ash@loremcompany.com</span>.
+        Please open it and click the button inside to confirm your subscription.</p>
+      <button id="dismiss-btn" class="submit time">please wating</button>
+    </div>
+  </main>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Anouar Bourich</a>.
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
